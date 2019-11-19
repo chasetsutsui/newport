@@ -11,7 +11,7 @@
     font-size: 26px;
 }
 body{
-    background: url('../images/interlaced.png');
+    background: url('../images/interlaced.jpg');
     font-size: 18px;
     line-height: 34px;
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -50,7 +50,7 @@ h1, h2, h3 {
 h1 {
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px solid #db8036; 
+    border-bottom: 3px solid #eea970; 
     padding-bottom: 20px;
 
 }
@@ -61,7 +61,7 @@ h2, h3{
 }
 
 #masthead{
-    background: #fff;
+    background: #666;
     margin: 0 0 30px;
     z-index: 99;
     color: #fff;
@@ -89,17 +89,20 @@ h2, h3{
 nav {
     float: right;
     margin-top: 25px;
+    font-size: 24px;
+    
 
 }
 
 nav a {
-    color: #db8036; 
+    color: #efefef; 
     text-decoration: none;
     margin-left: 15px;
     display: inline-block;
     border-left: 1px solid #efefef;
     padding-left: 15px;
     line-height: 18px;
+    
 
 }
 
@@ -119,7 +122,8 @@ nav a:first-child {
     width: 100%;
     max-width: 650px;
     float: left;
-    border: 1px solid #ddd;
+    border: 1px solid #eea970; 
+    border-bottom: 2px solid #eea970;
 
 }
 
@@ -138,13 +142,13 @@ nav a:first-child {
     width: 100%;
     max-width: 270px;
     float: right;
-    border: 1px solid #ddd;
+    border: 1px solid #eea970; 
     margin-bottom: 20px;
 
 }
 
 h3, .sidebar, h2{
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid #eea970; 
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
